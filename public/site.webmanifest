@@ -1,0 +1,24 @@
+{
+  "id": "/app",
+  "name": "SinoWala",
+  "short_name": "SinoWala",
+  "description": "Sino ang wala ngayon? Ang availability calendar mo at ng team mo.",
+  "lang": "fil",
+  "dir": "ltr",
+  "start_url": "/app",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#12161F",
+  "background_color": "#F1F2F4",
+  "categories": ["productivity", "business"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Ngayon", "short_name": "Ngayon", "url": "/app", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Kalendaryo ko", "short_name": "Kalendaryo", "url": "/app/kalendaryo", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Team calendar", "short_name": "Team", "url": "/app/team-kalendaryo", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

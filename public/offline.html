@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fil">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="robots" content="noindex">
+    <meta name="theme-color" content="#12161F">
+    <title>Offline · SinoWala</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+        html { -webkit-text-size-adjust: 100%; }
+        body {
+            margin: 0;
+            min-height: 100dvh;
+            display: grid;
+            place-items: center;
+            padding: max(1rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) max(1rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left));
+            background: #f1f2f4;
+            color: #12161f;
+            font: 500 1rem/1.6 ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        }
+        main { width: 100%; max-width: 26rem; text-align: center; }
+        img { display: block; margin: 0 auto 1.75rem; border-radius: 12px; }
+        h1 { margin: 0; font-size: 1.75rem; line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
+        p { margin: 0.75rem 0 0; color: #12161f; }
+        .note { color: #545a66; font-size: 0.875rem; }
+        a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            margin-top: 1.75rem;
+            padding: 0 1.5rem;
+            border-radius: 999px;
+            background: #12161f;
+            color: #fff;
+            font-weight: 650;
+            text-decoration: none;
+        }
+        a:hover { background: #2a303c; }
+        a:focus-visible { outline: 3px solid #12161f; outline-offset: 3px; }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="/favicon.svg" width="64" height="64" alt="SinoWala">
+        <h1>Walang internet ngayon</h1>
+        <p>Hindi ma-load ang page dahil offline ang phone mo. Subukan ulit kapag may signal o Wi-Fi na.</p>
+        <p class="note">Hindi nagse-save ang SinoWala ng kalendaryo o notes sa phone, para ligtas kahit may ibang gumagamit nito.</p>
+        <a href="">Subukan ulit</a>
+    </main>
+</body>
+</html>
